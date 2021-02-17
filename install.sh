@@ -29,6 +29,7 @@ rm -rf $folder
 #create dir, init files
 mkdir $folder
 cd $folder
+wget https://github.com/tokumeikoi/tidalab-trojan/releases/latest/download/tidalab-ss
 wget https://github.com/Jigsaw-Code/outline-ss-server/releases/download/v1.3.4/outline-ss-server_1.3.4_linux_x86_64.tar.gz
 wget https://github.com/prometheus/prometheus/releases/download/v2.24.1/prometheus-2.24.1.linux-amd64.tar.gz
 tar zxvf outline-ss-server_1.3.4_linux_x86_64.tar.gz -d ./
